@@ -1,0 +1,34 @@
+[
+  {
+    "MouthLevel": 1,
+    "AudioLevel": 5,
+    "MainWindow": {
+      "WindowSize": "784, 761",
+      "WindowPosition": "-217, 727",
+      "BorderStyle": 0,
+      "TransparentKey": "Control",
+      "IsTopMost": false
+    },
+    "MouthState": {
+      "Idle": "sprites\\idle.png",
+      "Talking": "sprites\\talk.gif"
+    },
+    "Frames": [
+      {
+        "Level": 0,
+        "Name": "Eyes",
+        "ImagePath": "sprites\\eyes_blink.gif"
+      },
+      {
+        "Level": 1,
+        "Name": "Mouth",
+        "ImagePath": "sprites\\idle.png"
+      },
+      {
+        "Level": 2,
+        "Name": "Body",
+        "ImagePath": "sprites\\body.png"
+      }
+    ]
+  }
+]

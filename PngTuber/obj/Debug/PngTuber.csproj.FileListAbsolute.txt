@@ -1,0 +1,23 @@
+D:\repos\PngTuber\PngTuber\bin\Debug\PngTuber.exe.config
+D:\repos\PngTuber\PngTuber\bin\Debug\PngTuber.exe
+D:\repos\PngTuber\PngTuber\bin\Debug\PngTuber.pdb
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.csproj.AssemblyReference.cache
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.Form1.resources
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.Properties.Resources.resources
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.csproj.GenerateResource.cache
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.csproj.CoreCompileInputs.cache
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.exe
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.pdb
+D:\repos\PngTuber\PngTuber\obj\Debug\PngTuber.exe.config
+D:\repos\PngTuber 2\PngTuber\bin\Debug\PngTuber.exe.config
+D:\repos\PngTuber 2\PngTuber\bin\Debug\PngTuber.exe
+D:\repos\PngTuber 2\PngTuber\bin\Debug\PngTuber.pdb
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.csproj.AssemblyReference.cache
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.exe.config
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.Form1.resources
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.Properties.Resources.resources
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.csproj.GenerateResource.cache
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.csproj.CoreCompileInputs.cache
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.csproj.Up2Date
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.exe
+D:\repos\PngTuber 2\PngTuber\obj\Debug\PngTuber.pdb
