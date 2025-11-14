@@ -120,7 +120,6 @@ namespace PngTuber
 
             ReadConfig();
             Start();
-            frames[config.MouthLevel].Image = mouthStates[1];
         }
 
         private void Form1_ResizeBegin(object sender, EventArgs e)

@@ -1,6 +1,6 @@
 [
   {
-    "MouthLevel": 1,
+    "MouthLevel": 2,
     "AudioLevel": 5,
     "MainWindow": {
       "WindowSize": "784, 761",
@@ -16,16 +16,21 @@
     "Frames": [
       {
         "Level": 0,
+        "Name": "Wing",
+        "ImagePath": "sprites\\wing.gif"
+      },
+      {
+        "Level": 1,
         "Name": "Eyes",
         "ImagePath": "sprites\\eyes_blink.gif"
       },
       {
-        "Level": 1,
+        "Level": 2,
         "Name": "Mouth",
         "ImagePath": "sprites\\idle.png"
       },
       {
-        "Level": 2,
+        "Level": 3,
         "Name": "Body",
         "ImagePath": "sprites\\body.png"
       }
