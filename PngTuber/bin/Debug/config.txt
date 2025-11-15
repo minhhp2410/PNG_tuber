@@ -11,7 +11,10 @@
     },
     "MouthState": {
       "Idle": "sprites\\idle.png",
-      "Talking": "sprites\\talk.gif"
+      "Talking": [
+        "sprites\\talk.png",
+        "sprites\\talk1.png"
+      ]
     },
     "Frames": [
       {

@@ -19,6 +19,7 @@ namespace PngTuber
         Size oldScreenSize, newScreenSize;
         bool isSpeaking = false;
         int audioLevel = 8;
+        int maxMouthStates = 0;
         public Form1()
         {
             InitializeComponent();
@@ -50,8 +51,10 @@ namespace PngTuber
             {
                 if (!isSpeaking)
                 {
+                    Random rnd = new Random();
                     isSpeaking = true;
-                    frames[config.MouthLevel].Image = mouthStates[1];
+                    int ind = rnd.Next(1, maxMouthStates);
+                    frames[config.MouthLevel].Image = mouthStates[ind];
                 }
             }
         }
@@ -97,13 +100,22 @@ namespace PngTuber
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            mouthStates = new Image[2];
             json = new JsonDataSet<Config>("config.txt");
             config = json.GetAll()[0];
 
+            mouthStates = new Image[config.MouthState.Talking.Length + 1];
             ChangeMouthState(config.MouthState.Idle, 0);
-            ChangeMouthState(config.MouthState.Talking, 1);
+            if (config.MouthState.Talking.Length == 1)
+            {
+                ChangeMouthState(config.MouthState.Talking[0], 0);
+            }
+            else
+            for (int i = 0; i < config.MouthState.Talking.Length; i++)
+            {
+                ChangeMouthState(config.MouthState.Talking[i], i+1);
+            }
 
+            maxMouthStates = mouthStates.Length;
             frames = new PictureBox[config.Frames.Count];
 
             foreach (Frame frame in config.Frames)

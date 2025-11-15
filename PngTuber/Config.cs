@@ -36,9 +36,9 @@ namespace PngTuber
         [JsonProperty("Idle")]
         public string Idle { get; set; }
         [JsonProperty("Talking")]
-        public string Talking { get; set; }
+        public string[] Talking { get; set; }
 
-        public MouthState(string idle, string talking)
+        public MouthState(string idle, string[] talking)
         {
             Idle = idle;
             Talking = talking;
